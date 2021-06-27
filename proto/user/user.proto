@@ -1,0 +1,13 @@
+syntax = "proto3";
+package ie.services.user;
+option go_package = "./";
+
+service UserService{
+  rpc All(Request) returns (Response){}
+}
+message Request{
+
+}
+message Response{
+
+}
